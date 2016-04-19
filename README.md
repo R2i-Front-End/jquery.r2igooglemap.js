@@ -10,6 +10,20 @@ What the Google Map Plugin relies on?
 * jQuery version 1.11 or later
 * Google Maps API Key (https://developers.google.com/maps/web/) 
 
+How to Initialize the Plugin
+--------------------------------------
+```
+  jQuery('#map').googleMap({
+    mapLocs: [{
+      name: 'R2i Baltimore',
+      lat: 39.287267,
+      lng: -76.609354,
+      infoWindow: '<div class="content"><h4>R2i Baltimore</h4><p>R2is headquarters located in the heart of the inner harbor. </p><p>[ADDRESS]</p></div>'
+    }],
+    apiKey: 'API KEY FROM GOOGLE'
+  });
+```
+
 Settings for the Plugin
 --------------------------------------
 | SETTING | VALUE | DESCRIPTION |
@@ -56,11 +70,6 @@ The map location array of objects is used to define the points to add to the map
 ```
   {
     name: '[NAME OF  LOCATION]',
-    description: '[DESCRIPTION OF LOCATION]',
-    address1: '[STREET ADDRESS]'
-    city: '[CITY]',
-    state: '[STATE NAME OR ABBREVIATION]',
-    zipCode: [ZIP CODE],
     lat: [LATITUDE OF LOCATION ON MAP],
     lng: [LONGITUDE OF LOCATION ON MAP],
     infoWindowContent: '<div class="content"><h4>[TEXT FOR THE HEADING]</h4><p>[TEXT FOR THE DESCRIPTION]</p><p>[ADDRESS]</p></div>'
