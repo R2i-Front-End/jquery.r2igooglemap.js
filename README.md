@@ -30,7 +30,7 @@ Settings for the Plugin
 | customMapStyels | [] | An array of custom styles for the map to use, generate this at snazzymaps.com |
 | customMapName | string | what to refer to the custom map name as |
 
-Defaultss for the Plugin
+Defaults for the Plugin
 --------------------------------------
 | SETTING | DEFAULT |
 | ---------- |  ---------- |  -------------------- | 
