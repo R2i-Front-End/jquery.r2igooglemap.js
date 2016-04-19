@@ -27,7 +27,7 @@ Settings for the Plugin
 | defaultMapType | string | Name of the default map type ('ROADMAP', 'HYBRID', 'TERRAIN', 'SATELLITE', 'CUSTOM') |
 | infoWindowWidth | integer | Max Width of the infowindow popup |
 | apiKey | string | API Key from Google Maps |
-| customMapStyels | [] | An array of custom styles for the map to use, generate this at snazzymaps.com |
+| customMapStyles | [] | An array of custom styles for the map to use, generate this at snazzymaps.com |
 | customMapName | string | what to refer to the custom map name as |
 
 Defaults for the Plugin
